@@ -2,6 +2,19 @@
 
 GitAudit is a local, automated pre-commit security guardian built in Python. It scans code patches for exposed secrets, API keys, and private tokens **locally** before they ever leave your machine, preventing high-risk credential leaks to remote repositories.
 
+## 🤝 Contributing
+
+GitAudit is open-source and loves community contributions! Whether you want to add new credential regex signatures, optimize the Windows terminal pipeline, or improve documentation, your help is welcome.
+
+To get started:
+1. **Fork** the repository.
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
+3. Open a **Pull Request** and let's collaborate!
+
+If you have feature ideas or want to discuss improvements, feel free to open a new **Issue**!
+
+
+
 ## 🚀 Features
 - **Zero-Leak Pipeline:** Integrates natively with Git Hooks to automatically halt insecure commits.
 - **Delta Scans:** Utilizes `git diff --cached` to lightning-scan only incoming text line modifications instead of scanning slow, historic codebases.
